@@ -1,6 +1,15 @@
 function isPalindrome(word) {
+ 
   // Write your algorithm here
+let compiler=word.split("").reverse().join("");
+if(compiler===word){
+  return true;
+}else{
+  return false
 }
+
+}
+console.log(isPalindrome("abba"))
 
 /* 
   Add your pseudocode here
